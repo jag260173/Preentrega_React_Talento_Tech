@@ -1,0 +1,77 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; /* Color de fondo */
+    padding: 10px 0; /* Espaciado interno vertical */
+    text-align: center; /* Centrar el contenido */
+}
+
+nav ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margen */
+    display: inline-flex; /* Flexbox para alinear horizontalmente */
+}
+
+nav li {
+    margin: 0 15px; /* Espacio entre los elementos de la lista */
+}
+
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+nav a:hover {
+    color: #ff5733; /* Color del texto al pasar el ratón */
+}
+
+/* Estilos para el contador del carrito */
+.in-cart {
+    background-color: #ff5733; /* Color de fondo para el contador */
+    color: white; /* Color del texto */
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 2px 8px; /* Espaciado interno */
+    margin-left: 5px; /* Espacio a la izquierda */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #f1f1f1; /* Color de fondo */
+    text-align: center; /* Centrar el texto */
+    padding: 15px 0; /* Espaciado interno */
+    position: relative; /* Posición relativa */
+    bottom: 0; /* Fijar al fondo */
+    width: 100%; /* Ancho completo */
+}
+
+footer p {
+    margin: 0; /* Sin margen */
+    color: #333; /* Color del texto */
+}
+.product {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0; /* Espacio arriba y abajo de la lista de productos */
+}

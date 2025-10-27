@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Producto 1",
+        "price": 100,
+        "category": "categoría1",
+        "description": "Descripción del producto 1",
+        "imageUrl": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "name": "Producto 2",
+        "price": 200,
+        "category": "categoría2",
+        "description": "Descripción del producto 2",
+        "imageUrl": "/assets/images/imagen1.png"
+    },
+    {
+        "id": 3,
+        "name": "Producto 3",
+        "price": 100,
+        "category": "categoría1",
+        "description": "Descripción del producto 3",
+        "imageUrl": "/assets/images/imagen1.png"
+    },
+    {
+        "id": 4,
+        "name": "Producto 4",
+        "price": 100,
+        "category": "categoría1",
+        "description": "Descripción del producto 3",
+        "imageUrl": "/assets/images/imagen1.png"
+    },
+    {
+        "id": 5,
+        "name": "Producto 5",
+        "price": 100,
+        "category": "categoría2",
+        "description": "Descripción del producto 5",
+        "imageUrl": "/assets/images/imagen1.png"
+    },
+    {
+        "id": 6,
+        "name": "Producto 6",
+        "price": 100,
+        "category": "categoría2",
+        "description": "Descripción del producto 6",
+        "imageUrl": "/assets/images/imagen1.png"
+    }
+]

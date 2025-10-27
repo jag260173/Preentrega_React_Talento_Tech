@@ -1,0 +1,25 @@
+/* item.css */
+.product-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+    margin: 10px;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+}
+
+.product-item img {
+    max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Efecto de hover */
+}
+
+.product-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
