@@ -25,7 +25,9 @@ export const ItemListContainer = () => {
     return (
         <section>
             <h1>Bienvenida</h1>
+            <div className="product-list"> 
             <ItemList list={products} /> {/* Pasa los elementos al componente ItemList */}
+            </div>
         </section>
     );
 };
