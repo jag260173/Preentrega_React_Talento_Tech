@@ -6,16 +6,18 @@
   text-align: center;
 }
 header {
-  background-color: #4CAF50;
+  background-color: #333;
   color: white;
   padding: 10px 0;
   text-align: center;
+  border-radius: 10px;
 }
 /* Estilos para la barra de navegación */
 nav {
     background-color: #333; /* Color de fondo */
     padding: 10px 0; /* Espaciado interno vertical */
     text-align: center; /* Centrar el contenido */
+    
 }
 
 nav ul {
@@ -51,17 +53,18 @@ nav a:hover {
 
 /* Estilos para el footer */
 footer {
-    background-color: #f1f1f1; /* Color de fondo */
+    background-color: #333; /* Color de fondo */
     text-align: center; /* Centrar el texto */
     padding: 15px 0; /* Espaciado interno */
     position: relative; /* Posición relativa */
     bottom: 0; /* Fijar al fondo */
     width: 100%; /* Ancho completo */
+    border-radius: 10px;
 }
 
 footer p {
     margin: 0; /* Sin margen */
-    color: #333; /* Color del texto */
+    color: white; /* Color del texto */
 }
 .product {
   border: 1px solid #ccc;

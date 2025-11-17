@@ -1,0 +1,65 @@
+/* Estilos generales para el formulario */
+form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto 20px; /* Centrar el formulario */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #333; /* Color de fondo */
+    display: flex; /* Usar flexbox para centrar */
+    flex-direction: column; /* Colocar elementos en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+}
+
+/* Estilo para los elementos del formulario */
+h2 {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+div {
+    width: 100%; /* Asegurar que los div ocupen todo el ancho */
+    margin-bottom: 15px; /* Espacio entre los campos */
+}
+
+/* Estilo para etiquetas */
+label {
+    display: block; /* Hacer que las etiquetas ocupen toda la línea */
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+}
+
+/* Estilo para los campos de entrada */
+input {
+    width: 90%; /* Ancho */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilo para el botón */
+button {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #333; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+/* Estilo para el botón al pasar el mouse */
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 600px) {
+    form {
+        padding: 15px; /* Menos espaciado en pantallas pequeñas */
+    }
+
+    button {
+        font-size: 14px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+}

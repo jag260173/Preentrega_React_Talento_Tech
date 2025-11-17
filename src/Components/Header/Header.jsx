@@ -1,10 +1,13 @@
-//import './Header.css';
-// Componente de Header
-const Header = () => {
+import {Link} from "react-router-dom";
+import { Nav } from "../Nav/Nav";
+import './Header.css';
+
+export const Header = () => {
   return (
     <header>
-      <h1>Tienda de Jorge</h1>
+      <Link to="/"><h1>Tienda ArduShopp</h1></Link>
+    <Nav />
     </header>
   );
 };
-export default Header;
+

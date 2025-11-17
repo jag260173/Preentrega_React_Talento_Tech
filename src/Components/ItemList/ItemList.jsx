@@ -3,6 +3,7 @@ import { Item } from "../Item/Item";
 
 
 export const ItemList = ({ list }) => {
+    console.log(list); // Verifica los productos que llegan al componente
     return (
         <div className="product-list">
             {list.length ? (

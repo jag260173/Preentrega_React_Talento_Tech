@@ -14,10 +14,13 @@ return (
                     <Link to={"/"}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/category/categoría1">Categoría 1</Link>
+                    <Link to="/category/sensores">Sensores</Link>
                 </li>
                 <li>
-                    <Link to="/category/categoría2">Categoría 2</Link>
+                    <Link to="/category/placas">Placas</Link>
+                </li>
+                <li>
+                    <Link to="/category/actuadores">Actuadores</Link>
                 </li>
                 <li>
                     <Link to="/cart">Carrito</Link> 
