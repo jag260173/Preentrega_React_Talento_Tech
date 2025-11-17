@@ -12,7 +12,7 @@ export const ItemListContainer = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://6912312d52a60f10c820f175.mockapi.io/products');
+        const response = await fetch('https://6912312d52a60f10c820f175.mockapi.io/products');
         if (!response.ok) {
           throw new Error('Hubo un problema al buscar productos');
         }
