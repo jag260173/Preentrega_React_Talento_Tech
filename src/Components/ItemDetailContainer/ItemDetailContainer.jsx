@@ -10,7 +10,7 @@ export const ItemDetailContainer = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch(`http://6912312d52a60f10c820f175.mockapi.io/products/${id}`);
+        const response = await fetch(`https://6912312d52a60f10c820f175.mockapi.io/products/${id}`);
         if (!response.ok) {
           throw new Error("No se encontró el producto");
         }
